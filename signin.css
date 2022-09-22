@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url(./Assets/blueberry-ice-cream-scoops-with-waffle-wooden-table.jpg);
+    background-size: cover;
+    background-repeat: no-repeat
+    ;
+}
+h1{
+    margin-top: px;
+    text-align: center;
+}
+.form{
+    height: 520px;
+    width: 350px;
+    background-color: #F4F0F5;
+    opacity: .9;
+    margin-left: 100px;
+    border-radius: 10px;   
+}
+
+.logo img{
+    height: 70px;
+   position: relative;
+   top: 50px;
+   margin-left: 30px;
+   
+}
+.google-signin{
+    height: 45px;
+    width: 250px;
+    background-color: white;
+    border: 1px solid #00B9DB;
+    margin-left: 18px;
+    cursor: pointer;
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.google-signin img{
+    height: 30px;
+    width: 30px;
+    margin-left: 35px;
+}
+.text{
+    margin-left: 10px;
+}
+.holder{
+    height: 55%;
+    width: 85%;
+    /* border: 1px solid #00B9DB; */
+    margin-left: 18px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 18px;
+}
+.div1, .div2, .div3, button{
+    margin-bottom: 8px
+}
+input{
+    display: flex;
+    flex: 1;
+    border: none;
+    outline: none;
+    
+    /* margin-top:5px ;
+    padding: 8px;
+    width: 7; */
+}
+.password{
+    margin-top: 5px;
+}
+.confirm-password{
+margin-bottom: 5px;
+}
+.name, .pwrd,.confirm-pwd{
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    height: 3vh;
+    width: 100%;
+    background-color: white;
+    display: flex;   
+}
+
+button{
+    height: 40px;
+    width: 110px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #00B9DB;
+}
+.name, .pwrd, .confirm-pwd{
+    padding: 10px;
+}

@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    /* display: flex; */
+    /* justify-content: center;
+    flex-direction: column; */
+}
+
+/* the first header */
+.header1{
+    height: 8vh;
+    width: 100%;
+    background-color: #DFFFF9;
+    display: flex;
+    align-items: center;
+}
+
+/* the left side of the first header */
+.header1 .corprate-Business ul{
+    margin-left: 50px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.header1 .corprate-Business li{
+    list-style: none;
+    margin: 10px; 
+
+}
+.header1 .corprate-Business a{
+    text-decoration: none;
+    list-style: none;
+    color: #655850;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/* the right side of the first header containing the icons */
+.other-logos{
+    height: 100%;
+    width: 45%;
+    margin-left: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.other-logos .logo1{
+    height:50px;
+    width: 10%;
+ 
+    
+}
+.other-logos .logo2{
+    height:80% ;
+    width: 16.2%;
+}
+
+
+.other-logos .logo3{
+    height:60% ;
+    width: 10.0%;
+}
+.other-logos .logo4{
+    height:60% ;
+    width: 10.0%;
+}
+.other-logos .logo5{
+    height:80% ;
+    width: 16.2%;
+}
+.other-logos .logo6{
+    height:80% ;
+    width: 16.2%;
+}
+.logo2{
+    height: 50px;
+    width: 70px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+} 
+
+
+/* second header */
+.header2{
+    height: 15vh;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.navbars{
+    height: 6vh;
+    width: 24%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    margin-left: 47px;
+}
+.navbars li{
+    list-style: none;
+    margin: 12px;
+
+}
+.navbars li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #655850;
+}
+
+.header2 .leftside li{
+   
+    margin: 15px;
+}
+
+
+.mainlogo{
+    height: 160px;
+    width: 160px;
+    border-radius: 360px;
+    /* background-color: silver; */
+    position: relative;
+    top: 35px;
+    margin-right: 30px;
+   
+}
+.mainlogo img{
+    height: 160px;
+    width: 160px;
+}
+
+.right-navbars{
+    height: 6vh;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #655850;
+}
+.searchicon{
+    height: 15px;
+    width:15px;
+}
+.searchicon img{
+    transform: rotate(270deg);
+    height: 15px;
+    width: 15px;
+}
+
+.choc-image{
+    height: 80vh;
+    width: 100%;
+    background-color: #DFFFF9;
+}
+
+/* main body */
+.container2{
+    height: 80vh;
+    width: 100%;
+    /* background-color: red; */
+    background-image:url(./Assets/girl.jpeg);
+    display: flex;
+    align-items: center;
+    
+}
+h1{
+    margin-left: 80px;
+    font-size: 70px;
+    color: #655850;
+    line-height: 1.2;
+}
+p{
+    margin-left: 80px;
+    font-size: 18px;
+    color: #655850;
+}
+
+.container3{
+    height: 100vh;
+    width: 100%;
+    background-image:url(./Assets/Homepage-Two-Color-Pink-Yellow-Background-Banner-1440x816.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.container3 .secret-recipes h1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-bottom: 15px;
+}
+.sample-pics{
+    height: 80%;
+    width: 90%;
+    display: grid;
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: 20px 1fr 1fr 1fr 1fr 20px;
+    gap: 20px;
+}
+.pic{
+    /* background-color: green; */
+}
+.radio-nav{
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    width: 150px;
+    margin-left: 40vw;
+}
+input{
+    margin: 7px;
+    height: 10px;
+    width: 10px;
+}
+.scoop-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    /* margin-leftt: 70px; */
+    position: relative;
+    right:200px;
+}
+button{
+    width: 210px;
+    height: 50px;
+    border-radius: 30px;
+    border: 2px solid #00B9DB;
+}
+
+.container4{
+    height: 150vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows: repeat(2,2fr);
+    /* background-color: green; */
+}
+.txt1,.photo,
+.txt2,.photo{
+    background-color: aqua;
+}
+.txt1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+ul{
+    margin-top: 50px;
+}
+.title{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #655850;
+}
+.heading{
+margin-top: 10px;
+font-size: 30px;
+font-weight: bold;
+color: #655850;
+}
+.paragraph{
+    font-size: 40px;
+    font-weight: bold;
+    color: #655850;
+    }
+.paragraph1{
+    margin-top: 20px;
+}
+.paragraph2{
+    /* margin-top: 30px; */
+}
+
+ li{
+    list-style: none;
+}
+.btn{
+    width: 150px;
+    margin-top: 20px;
+    color: black;
+    border: 2px solid #00B9DB;
+    background-color: white;
+}
+.photo{
+    background-image: url(./Assets/Homepage-Dreyers-Rocky-Road-Collection-720x547.jpg);
+}
+
+.photo2{
+    background-image: url(./Assets/Homepage-Outshine-Summer-720x547.jpg);
+}
+.txt2{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+ .text2 ul li{
+    list-style: none;
+    margin-right: 30px;
+ }
+
+ .container5{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Assets/Homepage-Two-Color-Green-Green-Background-Banner-1440x816.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .questions{
+    height: 50%;
+    width: 85%;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3,2fr);
+    margin-top: 30px;
+    padding-bottom: 50px;
+ }
+
+ .question1, .sub-question{
+    position: relative;
+    bottom: 100px;
+    margin-left: 50px;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+ }
+
+ .question2, .sub-question2{
+    position: relative;
+    bottom: 100px;
+    margin-left: 50px;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+ }
+
+ .question3, .sub-question3{
+    position: relative;
+    bottom: 100px;
+    margin-left: 50px;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+ }
+
+ .faq{
+    font-size: 30px;
+    margin-top: 25px;
+ }
+
+ .container6{
+    height: 65vh;
+    width: 100%;
+    /* background-color: green; */
+    background-image: url(./Assets/Brands-Background-Waffle-Cone-Blue-1440x460.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+
+ .icecream-quote{
+    height: 50px;
+    width: 70%;
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+ }
+ .brands{
+    height: 159px;
+    width: 80%;
+    margin: 35px;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-around;
+ }
+ .brands .logo1, .logo2,
+ .logo3, .logo4, .logo5,
+ .logo6 {
+    height: 159.34px;
+    width: 159.34px;
+    object-fit: cover;
+ }
+ 
+
+
+ .footer{
+    height: 30vh;
+    width: 100%;
+    background-color:#DFFFF9;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+ }
+ .footer1{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .footer .footer1 .left{
+    height: 90px;
+    width: 90px;
+ }
+ .footer .footer1 .left img{
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+ }
+
+
+ .footer .footer1 .middle{
+    height: 60%;
+    width: 60%;
+    /* background-color: aquamarine; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+ }
+ .footer .footer1 .middle {
+    color: #655850;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+ }
+
+.footer .footer1 .middle .ul{
+    display: flex;
+ }
+.foot-items{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #655850;
+}
+
+ .copyright{
+    color: #655850;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .twitter-icon{
+    height: 20px;
+    width: 20px;
+ }
+
+ .navbars li ul{
+    visibility: hidden;
+ }
